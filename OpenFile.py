@@ -1,4 +1,10 @@
 class OpenFile:
+    """A class to open and close files using a context manager.
+
+    This class provides methods to open and close files safely using the `with` statement.
+    It ensures that the file is properly closed even if an exception occurs.
+    """
+    
     def __init__(self, file_path, mode='r'):
         """Initializes the context for opening a file.
 
@@ -6,6 +12,7 @@ class OpenFile:
             file_path (str): The path of the file to be opened.
             mode (str, optional): The mode in which the file is opened. Defaults to 'r' (read).
         """
+
         self.file_path = file_path
         self.mode = mode
         self.file = None
@@ -16,17 +23,19 @@ class OpenFile:
         Returns:
             file: The opened file object.
         """
+
         self.file = open(self.file_path, self.mode)
         return self.file
 
     def __exit__(self, exc_type, exc_val, exc_tb):
-        """Closes the file when exiting the `with` block and raise and exception if error.
+        """Closes the file when exiting the `with` block or due to an exception.
 
         Args:
             exc_type (type): The type of exception if one occurred.
             exc_val (Exception): The exception instance if one occurred.
             exc_tb (traceback): The traceback object if an exception occurred.
         """
+        
         self.file.close()
 
         if exc_type is not None:

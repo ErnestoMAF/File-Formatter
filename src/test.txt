@@ -647,4 +647,4 @@ ce4f:2799:4f91:2962:72df:92b0:f22e:890e/67,Chico,Stickels,cstickelshw@omniture.c
 4a38:8c5a:18d4:15b:5bb:3b98:4071:9c4c/97,Sheilakathryn,Worstall,sworstallhy@infoseek.co.jp,Genderfluid,156.183.166.37
 d72f:d89f:87f:db29:e846:23c4:62a4:6bc8/68,Maryanne,Pleager,mpleagerhz@nyu.edu,Bigender,123.216.189.216
 19c8:3cce:b935:73d5:a43f:28d5:d86:b02/4,Myrah,Greystock,mgreystocki0@alexa.com,Female,44.180.81.27
-b06:bf51:ef0f:7995:d321:4c8b:811c:1e99/60, Tabby, Jackett, tjackett9@flickr.com, Female, 148.202.30.5 
+b06:bf51:ef0f:7995:d321:4c8b:811c:1e99/60,Tabby,Jackett, tjackett9@flickr.com, Female, 148.202.30.5
